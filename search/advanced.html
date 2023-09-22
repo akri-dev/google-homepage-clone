@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Google Search</title>
+        <link rel="icon" href="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="heading">
+            <header>
+                <a href="index.html"><img id="logo-header" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></a>
+                <div class="navigation">
+                    <a  href="index.html">Google Search</a>
+                </div>
+                
+            </header>
+        </div>
+        <div id="center">
+            <h4>Find pages with…</h4>
+            <form id="advanced" action="https://google.com/search">
+                <div class="grid-content-row">
+                    <div class="grid-contents-label">
+                        <label >all these words:</label>
+                    </div>
+                    <div class="grid-content-label">
+                        <input type="text" name="as_q">
+                    </div>
+                </div><br>
+                <div class="grid-content-row">  
+                    <div class="grid-contents-label">
+                        <label>this exact word or phrase:</label>
+                    </div>
+                    <div class="grid-content-label">
+                        <input type="text" name="as_epq">
+                    </div>
+                </div><br>
+                <div class="grid-content-row">
+                    <div class="grid-contents-label">
+                        <label>any of these words:</label>
+                    </div>
+                    <div class="grid-content-label">    
+                        <input type="text" name="as_oq">
+                    </div>
+                </div><br>
+                <div class="grid-content-row">
+                    <div class="grid-contents-label">
+                        <label>none of these words:</label>
+                    </div>
+                    <div class="grid-content-label">
+                        <input type="text" name="as_eq">
+                    </div>
+                </div><br>
+                <div class="grid-content-row">
+                    <div class="grid-contents-label"></div>
+                    <div id="grid-contents-label-button">
+                        <input id="button_advance" type="submit" value="Advanced Search">
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </body>
+</html>
